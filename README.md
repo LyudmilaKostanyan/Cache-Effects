@@ -17,7 +17,7 @@ This repository collects several small projects exploring the impact of memory l
 
 ---
 
-### 2. Cache Effect on Container Performance
+### 2. [Cache Effect on Container Performance](vector-vs-list-performance/README.md)
 
 * **Purpose**: Compares `std::vector` and `std::list` for sorted insertions and random deletions.
 * **Description**:
@@ -29,7 +29,7 @@ This repository collects several small projects exploring the impact of memory l
 
 ---
 
-### 3. Cache Hierarchy Performance Exploration
+### 3. [Cache Hierarchy Performance Exploration](Cache-Performance-Test/README.md)
 
 * **Purpose**: Measures memory access times for different stride sizes to analyze cache behavior.
 * **Description**:
@@ -40,7 +40,7 @@ This repository collects several small projects exploring the impact of memory l
 
 ---
 
-### 4. Cache-Aware vs Cache-Oblivious Merge Sort
+### 4. [Cache-Aware vs Cache-Oblivious Merge Sort](Cache-Aware-Merge-Sort/README.md)
 
 * **Purpose**: Compares a standard merge sort with a cache-aware version optimized for CPU caches.
 * **Description**:
@@ -51,7 +51,7 @@ This repository collects several small projects exploring the impact of memory l
 
 ---
 
-### 5. Matrix Multiplication Performance Comparison
+### 5. [Matrix Multiplication Performance Comparison](Matrix-Multiplication-Cache/README.md)
 
 * **Purpose**: Evaluates four matrix multiplication strategies: naive, blocked, recursive, and parallel blocked.
 * **Description**:
@@ -63,7 +63,7 @@ This repository collects several small projects exploring the impact of memory l
 
 ---
 
-### 6. Matrix Multiplication with Cache Optimization (Transpose)
+### 6. [Matrix Multiplication with Cache Optimization (Transpose)](Matrix-Transpose-Cache/README.md)
 
 * **Purpose**: Explores cache-friendly matrix multiplication using transpose and blocked access.
 * **Description**:
@@ -74,7 +74,7 @@ This repository collects several small projects exploring the impact of memory l
 
 ---
 
-### 7. Comparing Structure of Arrays (SoA) vs Array of Structures (AoS)
+### 7. [Comparing Structure of Arrays (SoA) vs Array of Structures (AoS)](AoS-vs-SoA/README.md)
 
 * **Purpose**: Compares memory layouts for particle simulations: AoS vs SoA.
 * **Description**:
@@ -82,4 +82,5 @@ This repository collects several small projects exploring the impact of memory l
   * AoS stores all properties of a particle together; SoA stores each property in its own contiguous array.
   * SoA improves cache usage and enables better SIMD utilization.
 * **Key Insight**: For simulations involving large numbers of objects, contiguous property arrays (SoA) are significantly faster due to cache efficiency.
+
 
