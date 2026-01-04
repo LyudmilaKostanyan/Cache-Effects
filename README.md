@@ -6,7 +6,7 @@ This repository collects several small projects exploring the impact of memory l
 
 ## Projects Overview
 
-### 1. Vector vs List Insert Performance
+### 1. [Vector vs List Insert Performance](vector-vs-list-insert/README.md)
 
 * **Purpose**: Compares `std::vector` and `std::list` for middle insertions.
 * **Description**:
@@ -82,3 +82,4 @@ This repository collects several small projects exploring the impact of memory l
   * AoS stores all properties of a particle together; SoA stores each property in its own contiguous array.
   * SoA improves cache usage and enables better SIMD utilization.
 * **Key Insight**: For simulations involving large numbers of objects, contiguous property arrays (SoA) are significantly faster due to cache efficiency.
+
